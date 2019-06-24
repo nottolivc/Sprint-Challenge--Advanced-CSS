@@ -187,12 +187,16 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 28px;
 }
-header h1 {
+navbar h1 {
   background-color: lightgrey;
   font-size: 4rem;
   text-align: center;
   padding: 20px;
+}
+.home .intro .main-header {
+  border-radius: 12px;
 }
 .home .intro h2 {
   padding: 15px;
@@ -235,6 +239,18 @@ header h1 {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  background: black;
+  color: white;
+  width: 80px;
+  height: 40px;
+  border-radius: 7px;
+  font-size: 1.7rem;
+}
+.home .walk .walk-text .btn:hover {
+  background: white;
+  color: black;
 }
 .home .walk .walk-img {
   width: 46%;
