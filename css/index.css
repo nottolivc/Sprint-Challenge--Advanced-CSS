@@ -260,3 +260,6 @@ navbar h1 {
   height: auto;
   border-radius: 10px;
 }
+.footer-bottom {
+  padding-bottom: 28px;
+}
