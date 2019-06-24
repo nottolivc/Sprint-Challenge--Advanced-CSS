@@ -172,9 +172,15 @@ nav h1 {
   font-size: 4rem;
   padding: 20px 10px 20px 10px;
 }
-nav a {
+nav .a-items {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: space-around;
+}
+nav .a-items a {
   text-decoration: none;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   color: black;
   justify-content: space-around;
 }
