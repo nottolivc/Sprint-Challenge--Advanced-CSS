@@ -270,6 +270,29 @@ navbar h1 {
   padding-bottom: 28px;
 }
 @media only screen and (max-width: 500px) {
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightgrey;
+    width: 100%;
+    height: 40px;
+  }
+  nav h1 {
+    font-size: 4rem;
+    padding: 20px 10px 20px 10px;
+  }
+  nav .a-items {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+  }
+  nav .a-items a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: black;
+    justify-content: space-around;
+  }
   .home .intro .main-header {
     border-radius: 12px;
   }
@@ -305,9 +328,10 @@ navbar h1 {
     padding: 50px 60px;
     display: flex;
     justify-content: center;
+    flex-flow: column wrap;
   }
   .home .walk .walk-text {
-    width: 50%;
+    width: 90%;
   }
   .home .walk .walk-text h3 {
     margin-bottom: 10px;
@@ -329,8 +353,8 @@ navbar h1 {
     color: black;
   }
   .home .walk .walk-img {
-    width: 95%;
-    margin-left: 4%;
+    width: 90%;
+    padding: 50px;
   }
   .home .walk .walk-img img {
     width: 100%;
